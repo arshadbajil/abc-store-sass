@@ -1,4 +1,4 @@
-// src/user/user.service.ts
+
 import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/sequelize';
 import { User } from './user.entity';

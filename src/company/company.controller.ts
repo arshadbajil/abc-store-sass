@@ -1,4 +1,3 @@
-// src/company/company.controller.ts
 import { Controller, Get, Post, Body, Param, Delete, Put, UseGuards } from '@nestjs/common';
 import { CompanyService } from './company.service';
 import { JwtAuthGuard } from '../auth/auth.guard';

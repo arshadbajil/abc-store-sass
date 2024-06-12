@@ -10,7 +10,4 @@ module.exports = {
     database: process.env.DB_NAME,
     logging: false,
   },
-  production: {
-    // Add production database configuration here
-  },
 };
