@@ -6,7 +6,7 @@ import { CompanyController } from './company.controller';
 import { UserModule } from 'src/user/user.module';
 
 @Module({
-  imports: [SequelizeModule.forFeature([Company]),UserModule],
+  imports: [SequelizeModule.forFeature([Company]), UserModule],
   providers: [CompanyService],
   controllers: [CompanyController],
   exports: [CompanyService],

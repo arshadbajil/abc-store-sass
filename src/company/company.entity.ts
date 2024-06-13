@@ -1,6 +1,11 @@
 import { Column, Model, Table, HasMany } from 'sequelize-typescript';
 import { User } from '../user/user.entity';
-import { IsNotEmpty, IsString, ValidateNested, ArrayMinSize } from 'class-validator';
+import {
+  IsNotEmpty,
+  IsString,
+  ValidateNested,
+  ArrayMinSize,
+} from 'class-validator';
 import { Type } from 'class-transformer';
 
 class UserWithInfo {

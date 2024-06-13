@@ -1,5 +1,10 @@
-
-import { Column, Model, Table, ForeignKey, BelongsTo } from 'sequelize-typescript';
+import {
+  Column,
+  Model,
+  Table,
+  ForeignKey,
+  BelongsTo,
+} from 'sequelize-typescript';
 import { Company } from '../company/company.entity';
 import { IsNotEmpty, IsString, IsEmail } from 'class-validator';
 
